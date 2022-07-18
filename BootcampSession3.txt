@@ -1,3 +1,39 @@
+Git steps:
+
+*Files can be created before step 5 or at step 5
+
+1) git init: initialize repository.
+2) git remote add origin (link): add remote repository .
+3) git branch -M main: setting local file as main branch.
+4) git status: check status of tracked files and commits.
+5) create files *.
+6) git add .: add all files created.
+6) a) git add (file name): adds the specified file.
+7) git commit -m "message": commit to local repository in preparation for pushing to remote repo.
+8) git push -u origin main: push all files to repository.
+
+HTML:
+<!--This is a comment-->
+<!DOCTYPE html> <!--declaration defines that this document is an HTML5 document-->
+<html>		<!--html container element is the root element of an HTML page-->
+	<head>	<!--contains links, meta, title, cdn tags aka information about the html page-->
+		<title>Page Title</title> 
+	</head>
+
+	<body> <!--contains all of the html elements displayed on the screen-->
+		<h1>My First Heading</h1> <!--Header tag (1-6) 1 is biggest size-->
+		<p>My first paragraph.</p> <!--Paragraph tag-->
+	</body>
+</html>
+
+VS Code Setup:
+	extentions:
+		- live server by Ritwick Dey 
+		- kite by kite
+		- html css support
+		- html boilerplate
+
+Code In Class:
 <!--This is a comment-->
 <!DOCTYPE html> <!--declaration defines that this document is an HTML5 document-->
 <html>		<!--html container element is the root element of an HTML page-->
